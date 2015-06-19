@@ -66,7 +66,7 @@ cacheSolve <- function(x, ...) {
   #check if a cached value exists
   if(!is.null(m)){
     # Message to indicate that the value is taken from cache (optional)
-    message("getting cached data")
+    # message("getting cached data")
     return(m)
   }
   
